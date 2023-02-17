@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>calulator
+    </title>
+</head>
+<body>
+    <body>
+  <form id="calc" name="cal">
+            <input type="text" name="screen" id="screen" placeholder="0." disabled value="">
+            <div class="cont">
+                <input type="button" id="clear" class="btn" value="C" onclick="cal.screen.value = ''">
+                <input type="button" id="square" class="btn" value="x^2" onclick="cal.screen.value = cal.screen.value * cal.screen.value">
+                <input type="button" id="1" class="btn" value="<-" onclick="cal.screen.value = cal.screen.value.substring(0,(cal.screen.value.length - 1))">
+                <input type="button" id="divide" class="btn" value="/"  onclick="cal.screen.value += '/'">
+                
+                <input type="button" class="btn" value="7" onclick="cal.screen.value += '7'">
+                <input type="button" class="btn" value="8" onclick="cal.screen.value += '8'">
+                <input type="button" id="9" class="btn" value="9" onclick="cal.screen.value += '9'">
+                <input type="button" id="multiply" class="btn" value="*"  onclick="cal.screen.value += '*'">
+                
+                <input type="button" id="4" class="btn" value="4" onclick="cal.screen.value += '4'">
+                <input type="button" id="5" class="btn" value="5" onclick="cal.screen.value += '5'">
+                <input type="button" id="6" class="btn" value="6" onclick="cal.screen.value += '6'">
+                <input type="button" id="minus" class="btn" value="-" onclick="cal.screen.value += '-'">
+                
+                
+                <input type="button" id="1" class="btn" value="1" onclick="cal.screen.value += '1'">
+                <input type="button" id="2" class="btn" value="2" onclick="cal.screen.value += '2'">
+                <input type="button" id="3" class="btn" value="3" onclick="cal.screen.value += '3'">
+                <input type="button" id="plus" class="btn" value="+" onclick="cal.screen.value += '+'">
+                
+                <input type="button" id="0" class="btn" value="0" onclick="cal.screen.value += '0'">
+                <input type="button" id="point" class="btn" value="." onclick="cal.screen.value += '.'">
+                <input type="button" id="equal" class="btn" value="=" onclick="cal.screen.value = eval(cal.screen.value)">
+                
+            </div>
+            <div class="footer">
+                Made By <a href="">Anand Gautam</a> 2022 &copy;
+            </div>
+        </div>
+</body>
+</body>
+</html>
