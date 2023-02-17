@@ -1,13 +1,16 @@
-body {background-color: rgb(112, 226, 226)}
+body {
+    background-color: rgb(112, 226, 226)
+}
+
 #calc {
     margin: 30px auto;
     width: 400px;
     max-height: 600px;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 2px solid black;/ border-radius: 5px;
     background-color: #333;
     box-shadow: 0 0 50px rgb(21, 102, 62);
 }
+
 #screen {
     margin: 10px auto;
     display: block;
@@ -23,6 +26,7 @@ body {background-color: rgb(112, 226, 226)}
     color: #155d97;
     box-shadow: 0 0 20px gray;
 }
+
 .cont {
     box-sizing: border-box;
     margin: 10px auto;
@@ -33,6 +37,7 @@ body {background-color: rgb(112, 226, 226)}
     background-color: whitesmoke;
     box-shadow: 0 0 20px gray;
 }
+
 .btn {
     display: inline-block;
     border: 1px solid #333;
@@ -47,13 +52,28 @@ body {background-color: rgb(112, 226, 226)}
     box-shadow: 0 0 20px gray;
     border-radius: 20px;
 }
+
 .btn:hover {
     background-color: lightgray;
 }
-#clear {background-color: darkred !important;color: beige;}
-#clear:hover {background-color: #ed0404 !important;}
-#square {font-size: 23px}
-#equal {width: 144px !important;}
+
+#clear {
+    background-color: darkred !important;
+    color: beige;
+}
+
+#clear:hover {
+    background-color: #ed0404 !important;
+}
+
+#square {
+    font-size: 23px
+}
+
+#equal {
+    width: 144px !important;
+}
+
 .footer {
     margin: 10px auto;
     width: 360px;
@@ -67,6 +87,7 @@ body {background-color: rgb(112, 226, 226)}
     text-shadow: 0 0 15px #c3c3c3;
     background-color: rgba(2, 2, 2, .8);
 }
+
 .footer a {
     text-decoration: none;
     font-family: Arial;
@@ -74,6 +95,7 @@ body {background-color: rgb(112, 226, 226)}
     color: rgb(3, 124, 124);
     cursor: pointer;
 }
+
 .footer a:hover {
     color: rgb(0, 255, 255);
 }
